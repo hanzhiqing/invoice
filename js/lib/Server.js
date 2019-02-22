@@ -3,7 +3,7 @@ Server.prototype = function() {
     var _getInvoice = function(data) {
         // 向后台发送请求获取发票信息
         $.ajax({
-            url: 'https://github.com/hanzhiqing/invoice/result.json',
+            url: '../../result.json',
             // url: 'http://yl.elion.com.cn/invoice/app/query',
             type: 'get',
             dataType: 'json',
