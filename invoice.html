@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <title>发票助手</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <link rel="stylesheet" href="js/lib/mui/css/mui.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/invoice.css" />
+</head>
+
+<body class="invoice-body">
+    <!-- 首页面 -->
+    <div id="invoice_page" class="invoice-page">
+        <div class="search-container">
+            <input type="text" class="search-text" placeholder="请输入关键字" />
+            <button class="search-btn"></button>
+        </div>
+        <div id="search_result" class="search-result">
+
+        </div>
+        <div class="search-noc">
+            <p>使用说明：请在输入栏输入您想要查询的企业名称或特定简称，系统将返回该企业的开票信息。</p>
+            <p>如您需要搜索亿利资源集团有限公司，可以输入“亿利资源”或者“集团本部”</p>
+        </div>
+    </div>
+
+    <!-- 通用类库 -->
+    <script src="js/lib/zepto.js"></script>
+    <script src="js/lib/zepto.touch.js"></script>
+    <script src="js/lib/fastclick.js"></script>
+    <script src="js/lib/Client.js"></script>
+    <script src="js/lib/Server.js"></script>
+    <script src="js/lib/mui/js/mui.min.js"></script>
+    <script src="js/lib/clipboard.min.js"></script>
+
+
+    <!-- 功能类 -->
+    <script src="js/components/Invoice.js"></script>
+    <script src="js/invoiceIndex.js"></script>
+</body>
+
+</html>
